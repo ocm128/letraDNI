@@ -4,6 +4,9 @@
 # First run tutorial.glade through gtk-builder-convert with this command:
 # gtk-builder-convert letradni.glade letradni.xml
 
+# coded by ocm128
+# email: tdoc@tutamail.com
+
 
 import pygtk
 pygtk.require("2.0")
@@ -28,7 +31,7 @@ class LetraDni(object):
     def on_about_menu_item(self, widget, data=None):
         
         authors = [
-        "Kalasni <kalassni@gmail.com>"
+        "ocm128 <tdoc@tutamail.com>"
         ]
         
         aboutDlg = gtk.AboutDialog()

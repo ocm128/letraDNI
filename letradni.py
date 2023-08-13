@@ -5,7 +5,6 @@
 # gtk-builder-convert letradni.glade letradni.xml
 
 # coded by ocm128
-# email: tdoc@tutamail.com
 
 
 import pygtk
